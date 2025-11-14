@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "title": "Classic Pancakes",
+    "description": "Fluffy pancakes for breakfast.",
+    "image": "assets/images/pancakes.jpg",
+    "prepTime": "15 min",
+    "servings": 4,
+    "ingredients": [
+      "1 1/2 cups all-purpose flour",
+      "3 1/2 tsp baking powder",
+      "1 tsp salt",
+      "1 tbsp sugar",
+      "1 1/4 cups milk",
+      "1 egg",
+      "3 tbsp melted butter"
+    ],
+    "steps": [
+      "Mix dry ingredients together.",
+      "Add milk, egg and melted butter and whisk until smooth.",
+      "Heat a lightly oiled griddle over medium-high heat.",
+      "Pour batter and cook until golden brown on both sides."
+    ],
+    "category": "Breakfast"
+  },
+  {
+    "id": 2,
+    "title": "Greek Salad",
+    "description": "Fresh and healthy salad.",
+    "image": "assets/images/salad.jpg",
+    "prepTime": "10 min",
+    "servings": 2,
+    "ingredients": [
+      "2 tomatoes, chopped",
+      "1 cucumber, sliced",
+      "1/2 red onion, thinly sliced",
+      "100g feta cheese",
+      "Olives, olive oil, oregano, salt"
+    ],
+    "steps": [
+      "Chop and mix vegetables in a bowl.",
+      "Add olives and crumbled feta.",
+      "Drizzle with olive oil and sprinkle oregano and salt."
+    ],
+    "category": "Salad"
+  }
+]
