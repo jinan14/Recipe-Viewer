@@ -43,5 +43,223 @@
       "Drizzle with olive oil and sprinkle oregano and salt."
     ],
     "category": "Salad"
+  },
+  {
+    "id": 3,
+    "title": "Spaghetti Bolognese",
+    "description": "Classic Italian meat sauce pasta.",
+    "image": "assets/images/spaghetti.jpg",
+    "prepTime": "30 min",
+    "servings": 3,
+    "ingredients": [
+      "200g spaghetti",
+      "250g ground beef",
+      "1 onion, diced",
+      "2 garlic cloves, minced",
+      "1 can tomato sauce",
+      "Salt, pepper, olive oil"
+    ],
+    "steps": [
+      "Boil spaghetti until al dente.",
+      "Sauté onions and garlic in olive oil.",
+      "Add ground beef and cook until browned.",
+      "Add tomato sauce, salt, and pepper.",
+      "Simmer for 15 minutes and serve over pasta."
+    ],
+    "category": "Dinner"
+  },
+  {
+    "id": 4,
+    "title": "Chicken Alfredo",
+    "description": "Creamy pasta with sliced chicken.",
+    "image": "assets/images/alfredo.jpg",
+    "prepTime": "25 min",
+    "servings": 2,
+    "ingredients": [
+      "200g fettuccine",
+      "1 chicken breast, sliced",
+      "1 cup heavy cream",
+      "1 cup parmesan cheese",
+      "2 garlic cloves",
+      "Salt, pepper, butter"
+    ],
+    "steps": [
+      "Boil pasta until al dente.",
+      "Cook chicken slices with salt and pepper.",
+      "Melt butter and sauté garlic.",
+      "Add cream and parmesan to create sauce.",
+      "Combine pasta, sauce, and chicken."
+    ],
+    "category": "Dinner"
+  },
+  {
+    "id": 5,
+    "title": "Avocado Toast",
+    "description": "Healthy and quick toast.",
+    "image": "assets/images/avocado_toast.jpg",
+    "prepTime": "5 min",
+    "servings": 1,
+    "ingredients": [
+      "1 slice bread",
+      "1 ripe avocado",
+      "Salt, pepper",
+      "Lemon juice"
+    ],
+    "steps": [
+      "Toast the bread.",
+      "Mash avocado with salt, pepper, and lemon.",
+      "Spread avocado on toast and serve."
+    ],
+    "category": "Breakfast"
+  },
+  {
+    "id": 6,
+    "title": "Fruit Smoothie",
+    "description": "Refreshing mixed fruit drink.",
+    "image": "assets/images/smoothie.jpg",
+    "prepTime": "3 min",
+    "servings": 2,
+    "ingredients": [
+      "1 banana",
+      "1 cup strawberries",
+      "1 cup milk or yogurt",
+      "Honey (optional)"
+    ],
+    "steps": [
+      "Add all ingredients to blender.",
+      "Blend until smooth.",
+      "Serve chilled."
+    ],
+    "category": "Drink"
+  },
+  {
+    "id": 7,
+    "title": "Omelette",
+    "description": "Quick and fluffy egg omelette.",
+    "image": "assets/images/omelette.jpg",
+    "prepTime": "7 min",
+    "servings": 1,
+    "ingredients": [
+      "2 eggs",
+      "Salt, pepper",
+      "Cheese (optional)",
+      "Butter"
+    ],
+    "steps": [
+      "Beat eggs with salt and pepper.",
+      "Heat butter in a pan.",
+      "Pour eggs and cook gently.",
+      "Add cheese, fold, and serve."
+    ],
+    "category": "Breakfast"
+  },
+  {
+    "id": 8,
+    "title": "Chocolate Chip Cookies",
+    "description": "Soft, chewy cookies.",
+    "image": "assets/images/cookies.jpg",
+    "prepTime": "20 min",
+    "servings": 6,
+    "ingredients": [
+      "1 cup flour",
+      "1/2 cup sugar",
+      "1/2 cup butter",
+      "1 egg",
+      "1 tsp vanilla",
+      "Chocolate chips"
+    ],
+    "steps": [
+      "Mix butter and sugar.",
+      "Add egg and vanilla.",
+      "Fold in flour and chocolate chips.",
+      "Scoop onto tray and bake 10 minutes."
+    ],
+    "category": "Dessert"
+  },
+  {
+    "id": 9,
+    "title": "Tuna Sandwich",
+    "description": "Simple protein-packed sandwich.",
+    "image": "assets/images/tuna_sandwich.jpg",
+    "prepTime": "10 min",
+    "servings": 1,
+    "ingredients": [
+      "Bread slices",
+      "1 can tuna",
+      "Mayonnaise",
+      "Salt, pepper"
+    ],
+    "steps": [
+      "Mix tuna with mayo, salt, and pepper.",
+      "Spread on bread.",
+      "Serve or toast lightly."
+    ],
+    "category": "Lunch"
+  },
+  {
+    "id": 10,
+    "title": "Veggie Stir Fry",
+    "description": "Healthy mixed vegetables.",
+    "image": "assets/images/stirfry.jpg",
+    "prepTime": "12 min",
+    "servings": 2,
+    "ingredients": [
+      "Carrots",
+      "Broccoli",
+      "Bell peppers",
+      "Soy sauce",
+      "Garlic",
+      "Olive oil"
+    ],
+    "steps": [
+      "Heat oil and sauté garlic.",
+      "Add vegetables and cook 5 minutes.",
+      "Add soy sauce and stir well.",
+      "Serve warm."
+    ],
+    "category": "Healthy"
+  },
+  {
+    "id": 11,
+    "title": "Mac & Cheese",
+    "description": "Creamy cheesy pasta.",
+    "image": "assets/images/mac_cheese.jpg",
+    "prepTime": "15 min",
+    "servings": 3,
+    "ingredients": [
+      "200g macaroni",
+      "1 cup cheddar cheese",
+      "1 cup milk",
+      "2 tbsp butter",
+      "Salt and pepper"
+    ],
+    "steps": [
+      "Boil macaroni.",
+      "Melt butter and add milk.",
+      "Add cheese and whisk until creamy.",
+      "Mix sauce with macaroni."
+    ],
+    "category": "Dinner"
+  },
+  {
+    "id": 12,
+    "title": "Chicken Soup",
+    "description": "Warm and comforting soup.",
+    "image": "assets/images/chicken_soup.jpg",
+    "prepTime": "25 min",
+    "servings": 2,
+    "ingredients": [
+      "1 chicken breast",
+      "Water",
+      "Carrots, onions, celery",
+      "Salt, pepper"
+    ],
+    "steps": [
+      "Boil chicken until cooked.",
+      "Add chopped vegetables.",
+      "Season with salt and pepper.",
+      "Simmer for 10 minutes."
+    ],
+    "category": "Soup"
   }
 ]
