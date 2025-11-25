@@ -6,12 +6,14 @@ void main() {
 }
 
 class RecipeViewerApp extends StatelessWidget {
+  const RecipeViewerApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Recipe Viewer',
       theme: ThemeData(
-        primarySwatch: Colors.deepOrange,
+        primarySwatch: Colors.pink,
       ),
       home: RecipeListScreen(),
     );
