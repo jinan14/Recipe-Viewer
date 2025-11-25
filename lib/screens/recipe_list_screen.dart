@@ -120,7 +120,7 @@ class _RecipeListScreenState extends State<RecipeListScreen> {
                     child: Image.asset(r.image, width: 64, height: 64, fit: BoxFit.cover),
                   ),
                 ),
-                title: Text(r.title),
+                title: Text( r.title ),
                 subtitle: Text('${r.description}\n${r.prepTime} • Serves ${r.servings}'),
                 isThreeLine: true,
                 onTap: () {
