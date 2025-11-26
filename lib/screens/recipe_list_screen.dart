@@ -42,7 +42,7 @@ class _RecipeListScreenState extends State<RecipeListScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.pinkAccent,
+        backgroundColor: Colors.orangeAccent,
         elevation: 4,
         centerTitle: true,
         title: const Text(

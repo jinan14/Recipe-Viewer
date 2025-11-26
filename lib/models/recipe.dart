@@ -9,6 +9,7 @@ class Recipe {
   final List<String> steps;
   final String category;
 
+  //constructor for recipe class
   Recipe({
     required this.id,
     required this.title,
@@ -21,6 +22,7 @@ class Recipe {
     required this.category,
   });
 
+  //factory method to create a recipe object from a json map
   factory Recipe.fromJson(Map<String, dynamic> json) {
     return Recipe(
       id: json['id'] as int,

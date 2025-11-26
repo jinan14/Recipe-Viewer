@@ -13,7 +13,7 @@ class RecipeViewerApp extends StatelessWidget {
     return MaterialApp(
       title: 'Recipe Viewer',
       theme: ThemeData(
-        primarySwatch: Colors.pink,
+        primarySwatch: Colors.orange,
       ),
       home: RecipeListScreen(),
     );
