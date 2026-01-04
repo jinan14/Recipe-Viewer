@@ -2,20 +2,19 @@ import 'package:flutter/material.dart';
 import 'screens/recipe_list_screen.dart';
 
 void main() {
-  runApp(RecipeViewerApp());
+  runApp(const MyApp());
 }
 
-class RecipeViewerApp extends StatelessWidget {
-  const RecipeViewerApp({super.key});
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Recipe Viewer',
-      theme: ThemeData(
-        primarySwatch: Colors.orange,
-      ),
-      home: RecipeListScreen(),
+      title: 'Recipe App',
+      theme: ThemeData(primarySwatch: Colors.orange),
+      home: const RecipeListScreen(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
