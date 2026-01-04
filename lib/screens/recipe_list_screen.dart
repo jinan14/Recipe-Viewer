@@ -36,7 +36,17 @@ class _RecipeListScreenState extends State<RecipeListScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Recipes'),
+        backgroundColor: Colors.white,
+        elevation: 4,
+        centerTitle: true,
+        title: const Text(
+          'Your Favorite Recipes',
+          style: TextStyle(
+            fontSize: 22,
+            fontWeight: FontWeight.bold,
+            color: Colors.black54,
+          ),
+        ),
         bottom: PreferredSize(
           preferredSize: const Size.fromHeight(56.0),
           child: Padding(
