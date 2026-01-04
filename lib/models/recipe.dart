@@ -1,3 +1,5 @@
+import 'dart:convert';
+
 class Recipe {
   final int id;
   final String title;
@@ -9,7 +11,6 @@ class Recipe {
   final List<String> steps;
   final String category;
 
-  //constructor for recipe class
   Recipe({
     required this.id,
     required this.title,
@@ -22,18 +23,22 @@ class Recipe {
     required this.category,
   });
 
-  //factory method to create a recipe object from a json map
   factory Recipe.fromJson(Map<String, dynamic> json) {
     return Recipe(
-      id: json['id'] as int,
-      title: json['title'] as String,
-      description: json['description'] as String,
-      image: json['image'] as String,
-      prepTime: json['prepTime'] as String,
-      servings: (json['servings'] is int) ? json['servings'] as int : int.parse(json['servings'].toString()),
-      ingredients: List<String>.from(json['ingredients'] ?? []),
-      steps: List<String>.from(json['steps'] ?? []),
-      category: json['category'] as String? ?? '',
+      id: int.tryParse(json['id'].toString()) ?? 0,
+      title: json['title'] ?? '',
+      description: json['description'] ?? '',
+      image: json['image'] ?? '',
+      prepTime: json['prepTime'] ?? '',
+      servings: int.tryParse(json['servings'].toString()) ?? 0,
+      ingredients: (json['ingredients'] is String)
+          ? List<String>.from(jsonDecode(json['ingredients']))
+          : List<String>.from(json['ingredients'] ?? []),
+      steps: (json['steps'] is String)
+          ? List<String>.from(jsonDecode(json['steps']))
+          : List<String>.from(json['steps'] ?? []),
+      category: json['category'] ?? '',
     );
   }
+
 }
